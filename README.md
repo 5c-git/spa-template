@@ -7,4 +7,4 @@ todo: vite.config {
   }
 }
 
-<meta name="color-scheme" content="only light"> - html.index
+'<meta name="color-scheme" content="only light">' - html.index
