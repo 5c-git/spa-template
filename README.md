@@ -6,3 +6,5 @@ todo: vite.config {
     host: true
   }
 }
+
+<meta name="color-scheme" content="only light"> - html.index
