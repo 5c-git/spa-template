@@ -6,8 +6,13 @@ import svgr from 'vite-plugin-svgr'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tsconfigPaths(), svgr()],
+  base: '/front/',
   build: {
     outDir: 'build'
   },
+  server: {
+    host: true,
+    open: true,
+  }
   
 })
